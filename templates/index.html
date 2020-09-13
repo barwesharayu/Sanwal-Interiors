@@ -1,0 +1,566 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sanwal Interiors</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jquery.timepicker.css' %}">
+
+    
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+
+    <!-- <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div> -->
+    <div class="page">
+    <nav id="colorlib-main-nav" class="border" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url({% static 'images/kitchen_2.jpg' %});"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Sanwal</a></h1>
+<!--              <ul>-->
+<!--                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>-->
+<!--                <li><a href="about.html"><span><small>02</small>About</span></a></li>-->
+<!--                <li><a href="services.html"><span><small>03</small>Services</span></a></li>-->
+<!--                <li><a href="pricing.html"><span><small>04</small>Pricing</span></a></li>-->
+<!--                <li><a href="portfolio.html"><span><small>05</small>Portfolio</span></a></li>-->
+<!--                <li><a href="contact.html"><span><small>07</small>Contact</span></a></li>-->
+<!--              </ul>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="colorlib-page">
+      <header>
+        <div class="colorlib-navbar-brand text-center">
+          <a class="colorlib-logo" href="#">Sanwal</a>
+        </div>
+<!--         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+ -->      </header>
+
+      <section class="home-slider owl-carousel">
+        <a href="#" class="slider-item" style="background-image: url({% static 'images/kitchen_2.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-end justify-content-center">
+              <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">#01 Interior</h1>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="slider-item" style="background-image: url({% static 'images/exterior.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-end justify-content-center">
+              <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#02 Exterior</h1>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="slider-item" style="background-image: url({% static 'images/bg_3.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-end justify-content-center">
+              <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#03 Hospitality</h1>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="slider-item" style="background-image: url({% static 'images/bg_4.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-end justify-content-center">
+              <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#04 Civil</h1>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      <!-- END slider -->
+
+      <section class="ftco-counter" id="section-counter">
+	    	<div class="container">
+	    		<div class="row d-flex">
+	    			<div class="col-md-7 py-sm-3 py-md-5">
+			    		<div class="row py-5">
+			          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			                <strong class="number" data-number="10">0</strong>
+			                <span>Finished Projects</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			                <strong class="number" data-number="20">0</strong>
+			                <span>happy Customers</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			                <strong class="number" data-number="400">0</strong>
+			                <span>Working Hours</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			                <strong class="number" data-number="80">0</strong>
+			                <span>Cups of coffee</span>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+		        </div>
+		        <div class="col-md-5 d-flex justify-content-center align-items-center img exp" style="background-image: url({% static 'images/image_1.jpg' %});">
+<!--		        	<p><a href="#" class="btn btn-white px-5 py-4">Explore Further</a></p>-->
+		        </div>
+	        </div>
+	    	</div>
+	    </section>
+
+	    <section class="ftco-services">
+	      <div class="container">
+	        <div class="row no-gutters">
+	          <div class="col-md-5 ftco-animate py-5 nav-link-wrap aside-stretch">
+	            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+	            	<h3 class="ml-3">Services</h3>
+	              <a class="nav-link px-4 active" id="v-pills-master-tab" data-toggle="pill" href="#v-pills-master" role="tab" aria-controls="v-pills-master" aria-selected="true"><span class="mr-3 flaticon-house-plans"></span> Interior</a>
+
+	              <a class="nav-link px-4" id="v-pills-buffet-tab" data-toggle="pill" href="#v-pills-buffet" role="tab" aria-controls="v-pills-buffet" aria-selected="false"><span class="mr-3 flaticon-ideas"></span> Civil and Constructions</a>
+
+	              <a class="nav-link px-4" id="v-pills-fitness-tab" data-toggle="pill" href="#v-pills-fitness" role="tab" aria-controls="v-pills-fitness" aria-selected="false"><span class="mr-3 flaticon-modern-house"></span> Residential</a>
+
+	              <a class="nav-link px-4" id="v-pills-reception-tab" data-toggle="pill" href="#v-pills-reception" role="tab" aria-controls="v-pills-reception" aria-selected="false"><span class="mr-3 flaticon-ideas"></span> Materials</a>
+
+				  <a class="nav-link px-4" id="v-pills-vastu-tab" data-toggle="pill" href="#v-pills-vastu" role="tab" aria-controls="v-pills-vastu" aria-selected="false"><span class="mr-3 flaticon-house-plans"></span> Vastu</a>
+
+				  <a class="nav-link px-4" id="v-pills-com-tab" data-toggle="pill" href="#v-pills-com" role="tab" aria-controls="v-pills-com" aria-selected="false"><span class="mr-3 flaticon-skyline"></span> Commercials and Officials</a>
+
+				  <a class="nav-link px-4" id="v-pills-renov-tab" data-toggle="pill" href="#v-pills-renov" role="tab" aria-controls="v-pills-renov" aria-selected="false"><span class="mr-3 flaticon-ideas"></span> Renovations</a>
+
+				  <a class="nav-link px-4" id="v-pills-arch-tab" data-toggle="pill" href="#v-pills-arch" role="tab" aria-controls="v-pills-arch" aria-selected="false"><span class="mr-3 flaticon-modern-house"></span> Architectural Layouts</a>
+
+				  <a class="nav-link px-4" id="v-pills-landscape-tab" data-toggle="pill" href="#v-pills-landscape" role="tab" aria-controls="v-pills-landscape" aria-selected="false"><span class="mr-3 flaticon-house-plans"></span> Landscaping</a>
+
+
+	            </div>
+	          </div>
+	          <div class="col-md-7 ftco-animate p-9 p-md-5 d-flex align-items-center">
+	            
+	            <div class="tab-content pl-md-5" id="v-pills-tabContent">
+
+	              <div class="tab-pane fade show active py-5" id="v-pills-master" role="tabpanel" aria-labelledby="v-pills-master-tab">
+	                <span class="icon mb-3 d-block flaticon-house-plans"></span>
+	                <h2 class="mb-9">Interior Design</h2>
+	                <p>Sanwal interior is an interior design consultant, specializing in designing and turn key execution of interior work, currently we are working in RESIDENTIAL and COMMERCIAL PROJECT and also successfully completed our project with happy clients.
+	                We are equipped with all the requisites like machinery, tools and trained man power for the successful completion of our project on time. The project coordinators closely monitor the progress at all stages so that no part is left unattended or unnoticed for any ensuring the clients happiness!	
+					</p>
+	                
+	              </div>
+
+	              <div class="tab-pane fade py-5" id="v-pills-buffet" role="tabpanel" aria-labelledby="v-pills-buffet-tab">
+	                <span class="icon mb-3 d-block flaticon-ideas"></span>
+	                <h2 class="mb-9">Civil and Constructions</h2>
+	                <p>With our help you can re-built your homes, part of homes as your new requirements and we will provide all the plans, layouts for the same. Demolition - removal of carpet, flooring, cabinets, tubs, lighting, and other from unit</p>
+	                
+	              </div>
+
+	              <div class="tab-pane fade py-5" id="v-pills-fitness" role="tabpanel" aria-labelledby="v-pills-fitness-tab">
+	                <span class="icon mb-3 d-block flaticon-modern-house"></span>
+	                <h2 class="mb-9">Residential</h2>
+	                <p>Bed Room - Kitchen - living Room - Bathroom We look after the designing, conceptualization and other nitty gritties (including furniture design ) to facilitate a proper face life of your home interior so much so that you may not stop marveling at it your self, let alone others who visit you.</p>
+	              </div>
+	              <div class="tab-pane fade py-5" id="v-pills-reception" role="tabpanel" aria-labelledby="v-pills-reception-tab">
+	                <span class="icon mb-3 d-block flaticon-project"></span>
+	                <h2 class="mb-9">Materials</h2>
+	                <p>All the matrials for interior design, constructions, reconstructions are provided by us.</p>       
+	              </div>
+	              <div class="tab-pane fade py-5" id="v-pills-vastu" role="tabpanel" aria-labelledby="v-pills-vastu-tab">
+	                <span class="icon mb-3 d-block flaticon-modern-house"></span>
+	                <h2 class="mb-9">Vastu</h2>
+	                <p>Vastu principles aim to establish harmony by using the five basic elements – earth, water, fire, air and space. It is believed that if the furniture, accessories and interiors are arranged according to Vastu Shastra, then, it will usher prosperity, health and welfare into the household. We provide services to build or reconstruct homes and interior as vastu shasra.</p>      
+	              </div>
+	              <div class="tab-pane fade py-5" id="v-pills-com" role="tabpanel" aria-labelledby="v-pills-com-tab">
+	                <span class="icon mb-3 d-block flaticon-skyline"></span>
+	                <h2 class="mb-9">Commercial and Officials</h2>
+	                <p>Malls - Shops - stores etc To cater to the specific, high quality efficient designing requirement of the commercial establishments, we have highly efficient and expert designers making things the ways the clients need and have imagined</p>      
+	              </div>
+	              <div class="tab-pane fade py-5" id="v-pills-renov" role="tabpanel" aria-labelledby="v-pills-renov-tab">
+	                <span class="icon mb-3 d-block flaticon-skyline"></span>
+	                <h2 class="mb-9">Renovations</h2>
+	                <p>We don't only work on new build or new construction, we also work on existing structures. Let our designs come in and completely transform your space. In addition to the construction items above, our designers will work with you to refresh or completely change your space. We can help you revive your space with the addition of some artwork and accessories or perform a total overhaul for a whole new look</p>      
+	              </div>
+	              <div class="tab-pane fade py-5" id="v-pills-arch" role="tabpanel" aria-labelledby="v-pills-arch-tab">
+	                <span class="icon mb-3 d-block flaticon-skyline"></span>
+	                <h2 class="mb-9">Architectural Layouts</h2>
+	                <p></p>      
+	              </div>
+	              <div class="tab-pane fade py-5" id="v-pills-landscape" role="tabpanel" aria-labelledby="v-pills-landscape-tab">
+	                <span class="icon mb-3 d-block flaticon-skyline"></span>
+	                <h2 class="mb-9">Landscaping</h2>
+	                <p>astu principles aim to establish harmony by using the five basic elements – earth, water, fire, air and space. It is believed that if the furniture, accessories and interiors are arranged according to Vastu Shastra, then, it will usher prosperity, health and welfare into the household. We provide services to build or reconstruct homes and interior as vastu shasra.</p>      
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+
+	    <section class="ftco-quote ftco-animate">
+	    	<div class="container">
+	    		<div class="row d-flex justify-content-end">
+	    			<div class="col-md-7 req-quote d-md-flex py-5 align-items-center img" style="background-image: url({% static 'images/bg_1.jpg' %});">
+		    			<h3 class=" ml-md-3">Get started</h3>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <section class="ftco-section">
+	    	<div class="container">
+          <div class="row">
+		    		<div class="col-md-4">
+		    			<div class="row">
+			    			<div class="col-md-12 heading-section ftco-animate mb-3">
+		              <h2 class="mb-4">Portfolio</h2>
+		              <p>Far far away, behind the word mountains, far from the countries Vokalia </p>
+		            </div>
+	            </div>
+		    			<a href="portfolio/photos" class="portfolio ftco-animate">
+		    				<div class="d-flex heading align-items-end">
+		    					<h3>
+		    						<span>Residence</span><br>
+		    						Work 01
+		    					</h3>
+		    				</div>
+		    				<img src="{% static 'images/kitchen_2.jpg' %}" class="img-fluid" alt="Colorlib Template">
+		    			</a>
+		    			<a href="portfolio/photos" class="portfolio ftco-animate">
+		    				<div class="d-flex heading align-items-end">
+		    					<h3>
+		    						<span>Residence</span><br>
+		    						Work 02
+		    					</h3>
+		    				</div>
+		    				<img src="{% static 'images/kitchen_1.jpg' %}" class="img-fluid" alt="Colorlib Template">
+		    			</a>
+		    			<a href="portfolio/photos" class="portfolio ftco-animate">
+			    			<div class="d-flex heading align-items-end">
+		    					<h3>
+		    						<span>Residence</span><br>
+		    						Work 03
+		    					</h3>
+		    				</div>
+		    				<img src="{% static 'images/kitchen_4.jpg' %}" class="img-fluid" alt="Colorlib Template">
+		    			</a>
+		    		</div>
+		    		<div class="col-md-8">
+		    			<a href="portfolio/photos" class="portfolio ftco-animate">
+			    			<div class="d-flex heading align-items-end">
+		    					<h3>
+		    						<span>Residence</span><br>
+		    						Work 04
+		    					</h3>
+		    				</div>
+		    				<img src="{% static 'images/kitchen_3.jpg' %}" class="img-fluid" alt="Colorlib Template">
+		    			</a>
+		    			<div class="row">
+		    				<div class="col-md-6">
+		    					<a href="portfolio/photos" class="portfolio ftco-animate">
+				    				<div class="d-flex heading align-items-end">
+				    					<h3>
+				    						<span>Residence</span><br>
+				    						Work 05
+				    					</h3>
+				    				</div>
+				    				<img src="{% static 'images/red.1.jpg' %}" class="img-fluid" alt="Colorlib Template">
+				    			</a>
+		    				</div>
+		    				<div class="col-md-6">
+		    					<a href="portfolio/photos" class="portfolio ftco-animate">
+				    				<div class="d-flex heading align-items-end">
+				    					<h3>
+				    						<span>Residence</span><br>
+				    						Work 06
+				    					</h3>
+				    				</div>
+				    				<img src="{% static 'images/drawing_room.jpg' %}" class="img-fluid" alt="Colorlib Template">
+				    			</a>
+		    				</div>
+		    			</div>
+		    			<div class="row">
+		    				<div class="col-md-6">
+		    					<a href="portfolio/photos" class="portfolio ftco-animate">
+				    				<div class="d-flex heading align-items-end">
+				    					<h3>
+				    						<span>Residence</span><br>
+				    						Work 07
+				    					</h3>
+				    				</div>
+				    				<img src="{% static 'images/drawing_room1.jpg' %}" class="img-fluid" alt="Colorlib Template">
+				    			</a>
+		    				</div>
+		    				<div class="col-md-6">
+		    					<a href="portfolio/photos" class="portfolio ftco-animate">
+			    				  <div class="d-flex heading align-items-end">
+				    					<h3>
+				    						<span>Residence</span><br>
+				    						Work 08
+				    					</h3>
+				    				</div>
+				    				<img src="{% static 'images/floor_plan1.jpg' %}" class="img-fluid" alt="Colorlib Template">
+				    			</a>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+	    	</div>
+	    </section>
+
+	    <section class="testimony-section">
+	      <div class="container">
+	        <div class="row d-md-flex">
+	        	<div class="col-md-4 last-order d-md-flex align-items-start heading-section aside-stretch ftco-animate">
+	      			<div>
+		            <h2 class="mb-4">Materials and Products</h2>
+		            <p>Along with the various services for interior designing we also provide materials and products for your home as well as offices.</p>
+		          </div>
+	          </div>
+	        	<div class="col-md-8 first-order ftco-animate">
+	            <div class="carousel-testimony owl-carousel">
+	              <div class="item">
+	                <div class="testimony-wrap text-center">
+	                  <div class="user-img mb-5" style="background-image: url({% static 'images/person_1.jpg' %})">
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+	                  <div class="text">
+	                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+	                    <p class="name">Dennis Green</p>
+	                    <span class="position">Architect</span>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="item">
+	                <div class="testimony-wrap text-center">
+	                  <div class="user-img mb-5" style="background-image: url({% static 'images/person_2.jpg' %})">
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+	                  <div class="text">
+	                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+	                    <p class="name">Dennis Green</p>
+	                    <span class="position">Architect</span>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="item">
+	                <div class="testimony-wrap text-center">
+	                  <div class="user-img mb-5" style="background-image: url({% static 'images/person_3.jpg' %})">
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+	                  <div class="text">
+	                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+	                    <p class="name">Dennis Green</p>
+	                    <span class="position">Architect</span>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="item">
+	                <div class="testimony-wrap text-center">
+	                  <div class="user-img mb-5" style="background-image: url({% static 'images/person_3.jpg' %})">
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+	                  <div class="text">
+	                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+	                    <p class="name">Dennis Green</p>
+	                    <span class="position">Customer</span>
+	                  </div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+
+		 <section class="ftco-section bg-light">
+		    <div class="container">
+		      <div class="row">
+		        <div class="col-md-4 mb-3 text-center ftco-animate">
+		          <div class="pricing p-4 py-5">
+		            <div class="icon mb-2"><span class="flaticon-skyline"></span></div>
+		            <h3 class="mb-3">Residencial Plans</h3>
+		            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		            <p class="price mb-4 py-3"><span class="mr-2 currency">Rs. 5000</span> <span class="per">Min</span></p>
+		          </div>
+		        </div>
+		        <div class="col-md-4 mb-3 text-center ftco-animate">
+		          <div class="pricing p-4 py-5">
+		            <div class="icon mb-2"><span class="flaticon-skyline"></span></div>
+		            <h3 class="mb-3">Commerical Plans</h3>
+		            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		            <p class="price mb-4 py-3"><span class="mr-2 currency">Rs. 8000</span> <span class="per">Min</span></p>
+		          </div>
+		        </div>
+		        <div class="col-md-4 mb-3 text-center ftco-animate">
+		          <div class="pricing p-4 py-5">
+		            <div class="icon mb-2"><span class="flaticon-skyline"></span></div>
+		            <h3 class="mb-3">Premium Plan</h3>
+		            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		            <p class="price mb-4 py-3"><span class="mr-2 currency">$29</span> <span class="per">per month</span></p>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </section>
+      
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-3">
+                <ul class="ftco-footer-social list-unstyled">
+<!--                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>-->
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.instagram.com/sanwals6" target="_blank"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+              <div class="ftco-footer-widget">
+                <h2 class="mb-3">Contact Us</h2>
+                <p class="email"><a href="shawnsanwal@gmail.com">shawnsanwal@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+
+              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+	    <!-- Modal -->
+<!-- 	    <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+	      <div class="modal-dialog" role="document">
+	        <div class="modal-content">
+	          <div class="modal-header">
+	            <h5 class="modal-title" id="modalRequestLabel">Request a Quote</h5>
+	            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	              <span aria-hidden="true">&times;</span>
+	            </button>
+	          </div>
+	          <div class="modal-body">
+	            <form action="#">
+	              <div class="form-group">
+	                <label for="appointment_name" class="text-black">Full Name</label>
+	                <input type="text" class="form-control" id="appointment_name">
+	              </div>
+	              <div class="form-group">
+	                <label for="appointment_email" class="text-black">Email</label>
+	                <input type="text" class="form-control" id="appointment_email">
+	              </div>
+	              <div class="row">
+	                <div class="col-md-6">
+	                  <div class="form-group">
+	                    <label for="appointment_date" class="text-black">Date</label>
+	                    <input type="text" class="form-control" id="appointment_date">
+	                  </div>    
+	                </div>
+	                <div class="col-md-6">
+	                  <div class="form-group">
+	                    <label for="appointment_time" class="text-black">Time</label>
+	                    <input type="text" class="form-control" id="appointment_time">
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="form-group">
+	                <label for="appointment_message" class="text-black">Message</label>
+	                <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+	              </div>
+	              <div class="form-group">
+	                <input type="submit" value="Send Message" class="btn btn-primary">
+	              </div>
+	            </form>
+	          </div>
+	          
+	        </div>
+	      </div>
+	    </div> -->
+    </div>
+
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/aos.js' %}"></script>
+    <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+    <script src="{% static 'js/scrollax.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
+    <script src="{% static 'js/jquery.timepicker.min.js' %}"></script>
+    <script src="{% static 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false' %}"></script>
+    <script src="{% static 'js/google-map.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    
+  </body>
+</html>
